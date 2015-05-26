@@ -32,4 +32,4 @@
 ; For new-if this means then-clause and else-clause need to be evaluated before the function runs.
 ; That means that the else-clase, "(sqrt-iter (improve guess x) x))" will be expanded infinitely.
 ; This generates the error: Aborting!: maximum recursion depth exceeded.
-; The normal if function is a special form in that it evaluates the predicate before evaluating/expanding the clauses, and only the relevant clause is evaluated/expanded.
+; The normal (ha, normal) if function is a special form in that it evaluates the predicate before evaluating/expanding the clauses, and only the relevant clause is evaluated/expanded.
